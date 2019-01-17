@@ -31,13 +31,31 @@ int main(){
             char x;
             scanf("%c",&x);
             scanf("%c",&x);
-            
+
         }
         if (code == 2) {
             
+            index--;
+            printf("删除成功，点击回车继续\n");
+
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
+
         }
         if (code == 3) {
+            printf("显示所有敏感字符\n");
+
+            for( i = 0; i < index; i++)
+            {
+                printf("%c",arr[i]);
+            }
             
+            printf("显示成功，点击回车继续\n");
+
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
         if (code == 4) {
             
