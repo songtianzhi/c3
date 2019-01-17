@@ -1,6 +1,27 @@
 #include <stdio.h>
 int index = 0;
 char arr[1024];
+int aaa()
+{
+    int count = 0;
+    
+    for(int i = 0; i < index; i++)
+    {
+        
+        if (x == arr[i]) {
+            count++;
+        }
+        
+    }
+    
+    if (count == 0) {
+        return 0;
+    }
+    else{
+        return 1;
+    }
+    
+}
 int main(){
     int code = 0;
     printf("进入敏感字符系统\n");
