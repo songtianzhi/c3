@@ -79,7 +79,29 @@ int main(){
             scanf("%c",&x);
         }
         if (code == 4) {
+            printf("请输入一段英文：\n");
+            char nr[1024];
+            scanf("%c",nr);
             
+            for(int i = 0; 1; i++)
+            {
+                
+                if (nr[i] == '\0') {
+                    break;
+                }
+                
+                if (aaa(arr[i]) == 1) {
+                    nr[i] = '*'
+                }
+                printf("%c",nr[i]);
+            }
+            printf("\n");
+
+            printf("替换成功，点击回车继续\n");
+
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
         if (code == 5) {
             printf("退出系统\n");
